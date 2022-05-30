@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.title{
+    font-weight: bold;
+}
+.flex{
+    display: flex;
+}
+label{
+    width: 100px;
+}
+input{
+    width: 300px;
+}
+button{
+    color: #fff;
+    padding: 10px;
+    border: none;
+}
+div{
+    @apply my-[5px];
+}
+input{
+    @apply h-[36px] p-[5px];
+}
+.btn-create {
+    @apply bg-success min-h-[36px] min-w-[50px];
+}
+.btn-edit{
+    @apply bg-primary1 p-[5px];
+}
+.btn-delete{
+    @apply bg-red p-[5px];
+}
+.btn-save {
+    @apply bg-primary1 mr-[5px] min-h-[36px] min-w-[50px];
+}
+.btn-cancel {
+    @apply bg-[#ff5a5f];
+}
